@@ -4,9 +4,178 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../blog_homepage/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <title>Blogpost</title>
 </head>
 <body>
+    <div class="wrapper">
+        <header>
+            <p>Nomic Blog</p>
+            <nav>
+                <!-- Main navigation menu inside <header> -->
+                <ul class="nav__list">
+                    <li><a href="../blog_homepage/index.html" class="menu home">Home</a></li>
+                    <li><a href="#about" class="menu about">About</a></li>
+                    <li><a href="#contact" class="menu contact">Contact</a></li>
+                    <li><a href="../blog_post/blogpost.html" class="menu blog">Blog</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- mainpage layout -->
+        <section class="blogposthome">
+            <p class="blogposthome__p1">A few words about Nomic Blog platform, Ghost content, and how this site was made</p>  
+            <p class="blogposthome__p2">nomic blog... the home of unique content!</p>
+            <img src="/images/blogimage2.jpg" alt="blogpost_featured_image">
+        </section>
+        <!-- blogpost layout -->
+        <section class="blogmain">
+            <div class="blogcontent">
+                <hr>
+                <div class="blogcontent__header">
+                    <div class="blogcontent__author">
+                        <img src="//../images/WIN_20210930_16_21_59_Pro.jpg" alt="author-image">
+                        <div>
+                            <p class="blogcontent__authorname">Orobola Roland</p>
+                            <p class="blogcontent__date">Dec 20, 2021 . <span class="blogcontent--duration">4</span> mins read</p>
+                        </div>
+                    </div>
+                    <div class="blogcontent__authormedia">
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-twitter-square"></i></a>
+                    </div>
+                </div>
+                <p class="blogcontent__p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto a corrupti labore illum dolorum, quam quo ipsam minus tempore aperiam ipsum ad nam nihil nesciunt facere atque perferendis aut! Ab amet quisquam, quia ea aspernatur qui consequuntur asperiores porro aliquam iusto dolore velit fuga sapiente? Eaque dolores consequuntur similique sed?</p>
+                <p class="blogcontent__p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus omnis, laboriosam saepe harum illum delectus.</p>
+                <h2>Next on the pipeline</h2>
+                <p class="blogcontent__p3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto a corrupti labore illum dolorum, quam quo ipsam minus tempore aperiam ipsum ad nam nihil nesciunt facere atque perferendis aut! Ab amet quisquam, quia ea aspernatur qui consequuntur asperiores porro aliquam iusto dolore velit fuga sapiente? Eaque dolores consequuntur similique sed?</p>
+                <p class="blogcontent__p4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, cupiditate?</p>
+            </div>
+                
+            <div class="blogcontent__image">
+                <img src="../images/blog-content-image.png" alt="content-image">
+                <span>Image caption centered this way and I'ii make this a bit longer to indicate the amount of the line-height</span>
+            </div>
+                
+            <div class="blogcontent2">
+                <p class="blogcontent__p5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ratione harum at iusto sit amet!</p>
+                <p class="blogcontent__p6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum dolore quae voluptas dolorem ea vitae excepturi! Officia facilis, pariatur accusamus quidem earum unde reiciendis blanditiis possimus, autem nemo, sunt officiis facere harum sed assumenda? Quod!</p>
+                <p class="blogcontent__p7">A list look like this:</p>
+                <ul class="blogcontent__items">
+                    <li class="item item1">First item in the list</li>
+                    <li class="item item2">Second item</li>
+                    <li class="item item3">Third item</li>
+                </ul>
+                <p class="blogcontent__p8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, assumenda soluta?</p>
+                <p class="blogcontent__p9">Thanks for reading</p>
+                <p class="blogcontent__p10">Roland</p>
+            </div>
+
+            <div class="blogcontent3">
+                <div class="authorsm">
+                    <div class="authorsm__fb">
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                        <p>Share on Facebook</p>
+                    </div>
+                    <div class="authorsm__twt">
+                        <a href=""><i class="fab fa-twitter-square"></i></a>
+                        <p>Share on Twitter</p>
+                    </div>
+                </div>
+                <p class="others">Tags: <a href="">product design</a>, <a href="">culture</a></p>
+                <p id="hyphen">-------------------------------------------------------------------------------------------------------------------------------------</p>
+                <div class="authorbio">
+                    <img src="../images/WIN_20210930_16_21_59_Pro.jpg" alt="author's image">
+                    <p><strong>Orobola Roland</strong>, founder of Tetrawrite Content Services, is a full stack developer and technical content writer who is passionate about building result oriented and sales driven software for clients.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="linepartition">
+            <hr>
+            <img src="../eyes-logo.png" alt="eyes-logo">
+        </div>
+        
+        <!-- layout for next blog posts -->
+        <section class="nextblogcontent">
+            <h2>What to read next</h2>
+            <div class="nextblog">
+                <div class="newblog blog__1">
+                    <h4>Top 3 Fintech establishments in the US 2019</h4>
+                    <img src="../Rectangle 13-1.png" alt="article-1">
+                    <p><a href="">Here are some things you should learn regarding...</a></p>
+                </div>
+                <div class="newblog blog__2">
+                    <h4>Top 3 Fintech establishments in the US 2019</h4>
+                    <img src="../Rectangle 13-1.png" alt="article-2">
+                    <p><a href="">Here are some things you should learn regarding...</a></p>
+                </div>
+                <div class="newblog blog__1">
+                    <h4>Top 3 Fintech establishments in the US 2019</h4>
+                    <img src="../Rectangle 13-1.png" alt="article-1">
+                    <p><a href="">Here are some things you should learn regarding...</a></p>
+                </div>
+                <div class="newblog blog__2">
+                    <h4>Top 3 Fintech establishments in the US 2019</h4>
+                    <img src="../Rectangle 13-1.png" alt="article-2">
+                    <p><a href="">Here are some things you should learn regarding...</a></p>
+                </div>
+                <div class="newblog blog__1">
+                    <h4>Top 3 Fintech establishments in the US 2019</h4>
+                    <img src="../Rectangle 13-1.png" alt="article-1">
+                    <p><a href="">Here are some things you should learn regarding...</a></p>
+                </div>
+                <div class="newblog blog__2">
+                    <h4>Top 3 Fintech establishments in the US 2019</h4>
+                    <img src="../Rectangle 13-1.png" alt="article-2">
+                    <p><a href="">Here are some things you should learn regarding...</a></p>
+                </div>
+                
+            </div>
+            <form action="" class="newsletter">
+                <h3>Sign up for the newsletter</h3>
+                <p>If you want relevant updates occasionally, sign up for the private newsletter. Your email is never shared.</p>
+                <div class="newsletter__signup">
+                    <input type="email" placeholder="Enter your email address">
+                    <button type="submit">Sign up</button>
+                </div>
+            </form>
+        </section>
+         <!-- footer layout -->
+         <footer>
+            <div class="companybrief">
+                <h3>About Us</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam blanditiis nihil distinctio quos recusandae ipsa voluptatibus natus tempore tenetur sequi.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni accusamus inventore deleniti!</p>
+            </div>
+            <div class="companymedia">
+                <h3>Connect With Us...</h3>
+                <div class="companycontact">
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href=""><i class="fab fa-github"></i></a>
+                    <a href=""><i class="fas fa-envelope"></i></a>
+                    <a href="">
+                        <Icon
+                        color="cerulean"
+                        size="md"
+                        title="Udacity"
+                        >
+                        <svg
+                            viewBox="0 0 3020 32"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path d="M29 .1l-9 4.7v14.9c0 .6 0 1.3-.2 1.9-.1.6-.3 1.2-.5 1.7-.1.1-.1.3-.2.4-.3 0-2.5-.7-3.5-1.4-.4-.3-.8-.6-1.2-1-.4-.4-.7-.8-1-1.2-.3-.4-.6-.9-.8-1.4-.2-.5-.4-1-.5-1.6-.1-.5-.1-1.1-.1-1.6V1.2L10 0 0 5.9v13.7C0 25.9 5.1 31 11.3 31c2.1 0 4-.5 5.7-1.5l8.4-4.8c3.3-1.7 5.6-5.2 5.6-9.1V1.3L29 .1zM17.9 26.2c-.9.9-1.6 1.4-2.6 1.9-.6.2-1.3.5-1.9.7-.6.1-1.2.2-1.8.2-.6 0-1.6-.1-2.2-.2-.6-.1-1.2-.3-1.7-.5s-1.1-.5-1.6-.9c-1.3-.9-1.9-1.7-2.5-2.5-.3-.5-.6-1-.9-1.6-.2-.6-.4-1.1-.5-1.7-.2-.7-.2-1.4-.2-2V7.1l8-4.7v13.1c0 5 3.7 9.1 8.4 10.1-.2.2-.3.4-.5.6zm11-9c-.1.5-.3 1-.5 1.5s-.6 1.2-1 1.7c-.6.7-1.2 1.2-2.7 2.1-1.3.7-2.4.9-3.1 1.1.5-1.2.5-2.5.5-3.9L22 6l7-3.7v13.3c0 .5 0 1.1-.1 1.6z" />
+                        </svg>
+                    </Icon>
+                    </a>
+                </div>
+                
+            </div>
+
+        </footer>
+</div>
     
 </body>
 </html>
