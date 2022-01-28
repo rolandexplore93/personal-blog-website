@@ -1,0 +1,229 @@
+@import "/website/style.css";
+
+/* Styling for the webpage top layout */
+.blog {
+    text-align: center;
+    background: #fff;
+    width: 100%;
+    margin-top: 100px;
+    /* border: 1px solid red; */
+}
+
+.blog > img {
+    width: 100%;
+    height: 450px;
+}
+
+.blogtitle {
+    font-size: 30px;
+    font-weight: bolder;
+    /* border: 1px solid blue; */
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.blogquote {
+    font-size: 10px;
+    color: rgb(170, 20, 20);
+    /* border: 1px solid blue; */
+}
+
+/* blogmain layout styles */
+.blogmain {
+    width: 60%;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+.blogcontent, .blogcontent2, .blogcontent3 {
+    width: 80%;
+    margin: auto;
+    padding: 5px 10px;
+}
+
+.blogcontent__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blogcontent__author {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blogcontent__author > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.blogcontent__author > div p{
+    margin: 0;
+    font-size: 10px;
+    font-weight: bold;
+    color: #000;
+    opacity: 0.8;
+}
+
+.blogcontent__authormedia > a{
+    color: blue;
+    margin: 0px 10px;
+    opacity: 0.8;
+}
+
+.blogcontent__image {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+    /* border: 1px solid red; */
+}
+
+.blogcontent__image > img {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+.blogcontent__image > span {
+    font-size: 0.7em;
+    color: #000;
+    opacity: 0.9;
+    /* border: 1px solid red; */
+}
+
+.authorsm {
+    display: flex;
+    justify-content: none;
+    align-items: center;
+}
+
+.authorsm__twt, .authorsm__fb, .authorsm__ldn {
+    width: 100%;
+    /* border: 1px solid red; */
+    opacity: 0.8;
+    box-shadow: 1px 1px 4px;
+    text-align: center;
+}
+
+.authorsm > div:hover {
+    background-color: rgb(226, 72, 103);
+    color: blue;
+    cursor: pointer;
+}
+
+.authorsm a {
+    text-decoration: none;
+    cursor: pointer;
+    color: blue;
+}
+
+.authorbio {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.authorbio > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.authorbio > p {
+    font-size: 0.8rem;
+    line-height: 1.2;
+    word-spacing: 2px;
+}
+
+#hyphen {
+    width: 100%;
+}
+
+/* Line partition to the next page containing new blog posts */
+.linepartition {
+    position: relative;
+}
+
+.linepartition > hr {
+    border: 1px solid #000;
+    background: #000;
+    height: 1px;
+}
+
+.linepartition > img {
+    width: 50px;
+    height: 40px;;
+    position: absolute;
+    /* transform: translateX(-50%, 50%); */
+    top: -20px;
+    left: 50%;
+    right: 50%;
+}
+
+.nextblogcontent {
+    width: 70%;
+    margin: auto;
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.nextblog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    padding: 0;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.newblog {
+    text-align: center;
+    background-color: #eee;
+    border-radius: 2px;
+    box-shadow: 1px 1px 2px;
+}
+
+.newblog > h4 {
+    height: 60px;
+    margin-bottom: 0;
+}
+
+.newblog > img {
+    width: 100%;
+    height: 120px;
+}
+
+.newblog > p {
+    white-space: nowrap; 
+    width: 350px; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+.newblog > button {
+    padding: 3px 10px;
+    margin-bottom: 10px;
+    outline: 0;
+}
+
+.newblog a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.newsletter {
+    text-align: center;
+    background-color: #eee;
+    box-shadow: 1px 1px 2px;
+    border-top: 7px solid #000;
+    width: 500px;
+    margin: auto;
+    padding: 10px 10px;
+    margin-top: 30px;
+}
