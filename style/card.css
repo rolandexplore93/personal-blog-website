@@ -1,0 +1,28 @@
+.article__post {
+    text-align: center;
+    background-color: #eee;
+    border-radius: 2px;
+    box-shadow: 1px 1px 2px;
+}
+
+.article__post > p {
+    white-space: nowrap; 
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow:hidden;
+}
+
+.article__post > button {
+    padding: 3px 10px;
+    margin-bottom: 10px;
+    outline: 0;
+}
+
+.article__post a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.article__post > img {
+    width: 100%;
+}

@@ -9,3 +9,12 @@ function loadMenu(){
         console.log(menuContainer)
     }
 }
+
+// const number = 5;
+
+// function addTen(){
+//     for (let j = number; j < 11; j++){
+//         // document.getElementById('country')1
+//         console.log(j + )
+//     }
+// }
