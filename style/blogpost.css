@@ -1,5 +1,4 @@
-/* @import "/website/style.css"; */
-@import "../website/style.css";
+@import "style.css";
 
 /* Styling for the webpage top layout */
 * {
