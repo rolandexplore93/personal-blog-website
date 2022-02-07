@@ -13,9 +13,11 @@
     <div class="wrapper">
         <header>
             <p>Tetrablog</p>
+            <p class="logo">Tblog</p>
             <nav>
                 <!-- Main navigation menu inside <header> -->
-                <ul class="nav__list">
+                <ul class="nav__list" id="nav__list">
+                    <li><a href="javascript:void(0);" class="bar" onclick="loadMenu()"><i class="fa fa-bars"></i></a></li>
                     <li><a href="/website/index.html" class="menu home">Home</a></li>
                     <li><a href="#about" class="menu about">About</a></li>
                     <li><a href="#contact" class="menu contact">Contact</a></li>
@@ -26,7 +28,7 @@
         <section class="blog">
             <p class="blogtitle">Top 3 Fintech establishments in the US 2019</p>  
             <p class="blogquote"><q>At the end of the day, customer centric fintech solutions are going to win.</q> – Giles Sutherland, Carta Worldwide</p>
-            <img src="/images/blogimage2.jpg" alt="blogpost_featured_image">
+            <img src="/images/blogimage.jpg" alt="blogpost_featured_image">
         </section>
         <!-- blogpost layout -->
         <section class="blogmain">
@@ -45,7 +47,7 @@
                     <div class="blogcontent__authormedia">
                         <a href=""><i class="fab fa-facebook"></i></a>
                         <a href=""><i class="fab fa-twitter-square"></i></a>
-                        <a href=""><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-linkedin"></i></a>
                     </div>
                 </div>
                 <p class="blogcontent__p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto a corrupti labore illum dolorum, quam quo ipsam minus tempore aperiam ipsum ad nam nihil nesciunt facere atque perferendis aut! Ab amet quisquam, quia ea aspernatur qui consequuntur asperiores porro aliquam iusto dolore velit fuga sapiente? Eaque dolores consequuntur similique sed?</p>
@@ -77,13 +79,13 @@
             <div class="blogcontent3">
                 <div class="authorsm">
                     <div class="authorsm__fb">
-                        <a href=""><p><i class="fab fa-facebook"></i> Share on Facebook</p></a>
+                        <a href="#"><p><i class="fab fa-facebook"></i> Share on Facebook</p></a>
                     </div>
                     <div class="authorsm__twt">
-                        <a href=""><p><i class="fab fa-twitter-square"></i> Share on Twitter</p></a>
+                        <a href="#"><p><i class="fab fa-twitter-square"></i> Share on Twitter</p></a>
                     </div>
                     <div class="authorsm__ldn">
-                        <a href=""><p><i class="fab fa-facebook"></i> Share on Linkedin</p></a>
+                        <a href="#"><p><i class="fab fa-linkedin"></i> Share on Linkedin</p></a>
                     </div>
                 </div>
                 <p class="others">Tags: <a href="">product design</a>, <a href="">culture</a></p>
@@ -99,7 +101,6 @@
             <hr>
             <img src="../images/blogpost-images/eyes-logo.png" alt="eyes-logo">
         </div>
-        
         <!-- layout for next blog posts -->
         <section class="nextblogcontent">
             <h2>See reference articles</h2>
@@ -144,7 +145,7 @@
                 <div class="companycontact">
                     <a href=""><i class="fab fa-facebook"></i></a>
                     <a href=""><i class="fab fa-twitter-square"></i></a>
-                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
                     <a href=""><i class="fab fa-github"></i></a>
                     <a href=""><i class="fas fa-envelope"></i></a>
                 </div>
@@ -152,5 +153,7 @@
         </footer>
 </div>
     
+
+<script src="/website/script.js"></script>
 </body>
 </html>

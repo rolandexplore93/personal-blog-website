@@ -12,9 +12,11 @@
     <div class="wrapper">
         <header>
             <p>Tetrablog</p>
+            <p class="logo">Tblog</p>
             <nav>
                 <!-- Main navigation menu inside <header> -->
-                <ul class="nav__list">
+                <ul class="nav__list" id="nav__list">
+                    <li><a href="javascript:void(0);" class="bar" onclick="loadMenu()"><i class="fa fa-bars"></i></a></li>
                     <li><a href="#" class="menu home">Home</a></li>
                     <li><a href="#article" class="menu about">Article</a></li>
                     <li><a href="#contact" class="menu contact">Contact</a></li>
@@ -68,5 +70,6 @@
 
         </footer>
     </div>
+    <script src="./script.js"></script>
 </body>
 </html>
