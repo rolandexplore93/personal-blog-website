@@ -22,7 +22,6 @@
 .blogtitle {
     font-size: 30px;
     font-weight: bolder;
-    /* border: 1px solid blue; */
     margin-top: 10px;
     margin-bottom: 0;
 }
@@ -36,7 +35,7 @@
 /* blogmain layout styles */
 .blogmain {
     width: 60%;
-    margin: auto 100px;
+    margin: auto auto;
     padding: 20px 0px;
 }
 
@@ -147,6 +146,8 @@
 
 #hyphen {
     width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 /* Line partition to the next page containing new blog posts */
@@ -266,14 +267,7 @@
         padding: 5px 10px;
     }
 
-    #hyphen {
-        width: 100%;
-        white-space: nowrap;
-        overflow: hidden;
-    }
-
     .nextblogcontent {
-        border: 1px solid blue;
         margin: auto;
         width: 95%;
         text-align: center;
@@ -317,12 +311,6 @@
         padding: 5px 10px;
     }
 
-    #hyphen {
-        width: 100%;
-        white-space: nowrap;
-        overflow: hidden;
-    }
-
     .nextblogcontent {
         margin: auto;
         width: 95%;
@@ -356,12 +344,6 @@
         padding: 5px 10px;
     }
 
-    #hyphen {
-        width: 100%;
-        white-space: nowrap;
-        overflow: hidden;
-    }
-
     .newsletter {
         margin: 50px auto 0;
         width: 60%;
@@ -373,3 +355,25 @@
     }
     
 }
+
+/* Media Query for Laptops, Desktops and Large screens */
+@media (min-width: 1025px){
+    
+    .newsletter {
+        width: 500px;
+        margin: 50px auto 0;
+    }
+
+    .newsletter__signup {
+        /* width: inherit; */
+        margin: auto;
+    }
+    
+    .newsletter__signup > * {
+        width: 150px;
+        padding: 5px;
+    }
+}
+
+
+
